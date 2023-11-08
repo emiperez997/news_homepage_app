@@ -1,0 +1,15 @@
+.top-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+}
+
+@media (width > 1024px) {
+  .top-news {
+    padding: 20px 0;
+    flex-direction: row;
+  }
+}

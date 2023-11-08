@@ -1,0 +1,20 @@
+.wrapper-column {
+  flex-direction: column;
+}
+
+.wrapper-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-responsive {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (width > 1024px) {
+  .wrapper-responsive {
+    flex-direction: row;
+  }
+}

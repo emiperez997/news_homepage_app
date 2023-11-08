@@ -1,0 +1,38 @@
+.section-new {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.section {
+  background-color: var(--very-dark-blue);
+  width: 100%;
+  padding: 20px 20px;
+  color: var(--soft-orange);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.section-news {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+}
+
+hr {
+  border: 1px solid var(--dark-grayish-blue);
+  width: 100%;
+}
+
+@media (width > 1024px) {
+  .section-new {
+    width: 40%;
+  }
+}
