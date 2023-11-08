@@ -11,17 +11,17 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img className="icon-logo" src="/images/logo.svg" alt="" />
+        <img className="icon-logo" src="images/logo.svg" alt="" />
 
         <button className="open-menu" onClick={setMenu}>
-          <img src="/images/icon-menu.svg" alt="" />
+          <img src="images/icon-menu.svg" alt="" />
         </button>
       </div>
 
       <div className={open ? "open" : "close"}>
         <div className={`nav-menu ${!open ? "close-animation" : ""}`}>
           <button className="close-menu" onClick={setMenu}>
-            <img src="/images/icon-menu-close.svg" alt="" />
+            <img src="images/icon-menu-close.svg" alt="" />
           </button>
           <div className="nav-links">
             <a href="" className="nav-item">
