@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/randomVerse_generator_app/";
+    config.base = "/news_homepage_app/";
   }
 
   return config;
